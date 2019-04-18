@@ -32,3 +32,11 @@ body{
     background-repeat:no-repeat;
     background-size:100vw 100vh;
 }
+.copyright{
+    bottom: 0px;
+    color: white;
+    text-align: right;
+}
+a{
+    color: white;
+}
