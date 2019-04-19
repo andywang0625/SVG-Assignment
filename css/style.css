@@ -44,11 +44,19 @@ a{
 html{
 
 }
-@media only screen and (max-width: 1000px){
+@media screen and (max-width: 1000px){
     body{
         background:url('../svg/bg.svg');
         background-repeat:no-repeat;
-        background-size: 1920px 100vh;
+        background-size: 1280px 720px;
+        background-position: center;
+    }
+}
+@media screen and (min-height: 699px) and (max-width: 1000px){
+    body{
+        background:url('../svg/bg.svg');
+        background-repeat:no-repeat;
+        background-size: 1280px 100vh;
         background-position: center;
     }
 }
