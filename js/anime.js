@@ -87,7 +87,7 @@ function start(){
                         rockets.transform('translate('+ (x-120) + ',' + y + ')\
                                              rotate('+ (moveWithPath.alpha - 90)+', \
                                              '+rockets_box.cx+', '+rockets_box.cy+')');
-                    }, 2022, mina.linear, function(){
+                    }, 2022, mina.easeinout, function(){
                         star.animate({
                             d: star_path,
                             fill: "yellow",

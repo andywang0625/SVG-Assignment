@@ -28,7 +28,7 @@
     width: 120px;
 }
 body{
-    background-image:url('../img/bg.jpg');
+    background:url('../svg/bg.svg');
     background-repeat:no-repeat;
     background-size:100vw 100vh;
 }
@@ -39,4 +39,8 @@ body{
 }
 a{
     color: white;
+}
+html{
+    width: 95vw;
+    height: 95vh;
 }
